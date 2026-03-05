@@ -1,33 +1,31 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: /images/INET Logo.png
+heroImageStyle:
+  maxWidth: 320px
+  width: 10%
+  display: block
+  margin: 0 auto
+
 actions:
   - text: Get Started
-    link: /get-started.html
+    link: /login.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: Tutorials
+    link: https://www.youtube.com/@industrialnetworks2876
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: Who Are We?
+    details: Industrial Networks is at the forefront of revolutionizing railyard automation and data acquisition systems across North America.
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - title: Automating Rail Processes
+    details: At Industrial Networks, we provide a comprehensive range of solutions tailored to the entire rail industry.
+
+  - title: Our Services
+    details: From expert consulting services to help you find the perfect system to seamless commissioning.
+
+footer: © 2025 by Industrial Networks.
 ---
-
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
