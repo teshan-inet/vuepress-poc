@@ -4,6 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
+  
+  base: '/vuepress-poc/',
 
   title: 'INET Gateway Docs',
   description: 'Live Rail Data, Smarter Decisions',
@@ -11,7 +13,10 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/INET Logo.png',
 
-    navbar: ['/', '/get-started'],
+    navbar: [
+      '/',
+      '/get-started'
+    ],
 
     sidebar: [
       {
