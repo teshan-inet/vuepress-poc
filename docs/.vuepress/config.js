@@ -7,7 +7,7 @@ export default defineUserConfig({
   
   base: '/vuepress-poc/',
 
-  title: 'INET Gateway Docs',
+  title: 'INET Gateway Docss',
   description: 'Live Rail Data, Smarter Decisions',
 
   theme: defaultTheme({
