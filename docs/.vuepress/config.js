@@ -4,10 +4,11 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  
+
+  // REQUIRED FOR GITHUB PAGES
   base: '/vuepress-poc/',
 
-  title: 'INET Gateway Docss',
+  title: 'INET Gateway Docs',
   description: 'Live Rail Data, Smarter Decisions',
 
   theme: defaultTheme({
